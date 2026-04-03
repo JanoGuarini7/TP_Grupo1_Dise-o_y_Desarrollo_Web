@@ -18,11 +18,15 @@ body {
 }
 
 footer {
-    display: grid;
+    background-color:  #003366;
+    display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 60px;
     height: 200px;
     padding: 25px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
 }
 
 h1, h2 {
@@ -36,6 +40,9 @@ h5 {
     color: var(--neutral);
     opacity: 100%;
 }
+h3{ color: var(--blanco);}
+p
+{color: rgb(187, 183, 183)}
 
 .nav-links, .label {
   font-weight: 500;
@@ -93,4 +100,26 @@ h5 {
     background-color: transparent;
     color: var(--primario);
     border-color: var(--primario);
+}
+#pie{color: rgb(187, 183, 183);
+    text-decoration: none;
+    
+}
+.contenedor1{
+height: 300px; 
+background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://img.freepik.com/foto-gratis/edificios-ciudad-reflejo-atardecer_23-2152013752.jpg?semt=ais_incoming&w=740&q=80); 
+background-size: cover;
+margin-left: 20px;
+width: 33.33%;
+
+}
+.contenedor2{
+width: 33.33%; 
+height: 700px; 
+background-color: white;
+}
+.contenedor3{
+    width: 33.33%; 
+height: 700px; 
+background-color:#003366;
 }
