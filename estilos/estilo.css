@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* variables de los colores que se van a usar en la aplicacion */
+:root {
+    --primario: #002147;
+    --secundario: #003366;
+    --tercero: #28a745;
+    --neutral: #475569;
+    --neutral-bg: #eceef0;
+    --blanco: #ffffff;
+    --blanco-nieve: #f8f9fb;
+    --negro: #000000;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--blanco-nieve);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
+    height: 200px;
+    padding: 25px;
+}
+
+h1, h2 {
+  font-weight: 800; 
+  letter-spacing: -0.05em;
+}
+
+h5 {
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--neutral);
+    opacity: 100%;
+}
+
+.nav-links, .label {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.75rem; 
+}
+
+.contenedor-principal {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.contenedor, .contenedor-mapa {
+    border: 1px solid black;
+    background-color: var(--neutral-bg);
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.boton-primario {
+    background-color: var(--primario);
+    color: var(--blanco);
+    border-color: var(--primario);
+}
+
+.boton-secundario {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    border-color: var(--secundario);
+}
+
+.boton-tercero {
+    background-color: var(--tercero);
+    color: var(--blanco);
+    border-color: var(--tercero);
+}
+
+.boton-neutral {
+    background-color: var(--neutral);
+    color: var(--blanco);
+    border-color: var(--neutral);
+}
+
+.boton-bordeado {
+    background-color: transparent;
+    color: var(--primario);
+    border-color: var(--primario);
+}
