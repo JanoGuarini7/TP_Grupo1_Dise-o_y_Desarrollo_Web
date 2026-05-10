@@ -1,103 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cargoview Solutions</title>
+    <title>Proyectos | Junction Labs</title>
     <link rel="stylesheet" href="estilos/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-
-<header>
-    <h1 style="text-align: center;"> CargoView </h1>
-    <nav>
-        <ul class ='nav-links'>
-            <li> <a href="index.html">Inicio</a></li>
-            <li> <a href="servicios.html">Servicios</a></li>
-            <li> <a href="proyectos.html">Proyectos</a></li>
-            <li> <a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main id="main">
-    <h5>PROYECTOS REALIZADOS</h5>
-    <h1>Casos de uso en logistica maritima</h1>
-
-    <div class="contenedor-principal">
-
-        <!-- Proyecto 1 -->
-        <div style="width: 30%; height: 300px;" class="contenedor">
-            <h3>Optimización ruta Atlantico</h3>
-            <p>Reduccion del 20% en tiempos de entrega mediante analisis de rutas y condiciones climaticas.</p>
+    <header>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <div class="logo" style="pointer-events:none;">JUNCTION_LABS</div>
+            <nav>
+                <ul class='nav-links'>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html" class="active">Proyectos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <!-- Proyecto 2 -->
-        <div style="width: 30%; height: 300px;" class="contenedor">
-            <h3>Control de flota global</h3>
-            <p>Implementacion de monitoreo en tiempo real para mas de 50 embarcaciones activas.</p>
+    <main>
+        <section class="hero" style="padding: 80px 0;">
+            <div class="container">
+                <span class="hero-label">Casos de Éxito</span>
+                <h1>Portafolio Seleccionado</h1>
+                <p>Una muestra de nuestra capacidad para transformar desafíos complejos en soluciones técnicas
+                    elegantes.</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="section-grid" style="padding-top: 0;">
+
+                <div class="card" style="grid-column: span 12; display: flex; align-items: center; gap: 40px;">
+                    <div
+                        style="background: var(--color-surface-container-high); width: 300px; height: 200px; flex-shrink: 0; border-radius: 2px;">
+                    </div>
+                    <div>
+                        <h3>Central de Transporte</h3>
+                        <p>Plataforma integral de gestión de transporte, que permite la administración eficiente de
+                            rutas, flotas y pasajeros.</p>
+                        <a href="#" class="btn btn-secondary" style="margin-left: 0; margin-top: 20px;">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="logo" style="margin-bottom: 32px; font-size: 1rem;">JUNCTION_LABS</div>
+            <div class="footer-links">
+                <a href="#">Privacidad</a>
+                <a href="#">Términos</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+            <p style="font-size: 0.75rem; color: var(--color-outline);">© 2026 Junction Labs. Todos los derechos
+                reservados.</p>
         </div>
-
-        <!-- Proyecto 3 -->
-        <div style="width: 30%; height: 300px;" class="contenedor">
-            <h3>Simulacion de carga</h3>
-            <p>Mejora en la distribucion de contenedores aumentando un 30% el uso del espacio.</p>
-        </div>
-
-    </div>
-
-    <h1 style="margin-top: 40px;">Proyectos en desarrollo</h1>
-
-    <div class="contenedor-principal">
-
-        <!-- Proyecto 4 -->
-        <div style="width: 30%; height: 250px;" class="contenedor">
-            <h3>IA predictiva</h3>
-            <p>Desarrollo de modelos para anticipar demoras y optimizar decisiones logisticas.</p>
-        </div>
-
-        <!-- Proyecto 5 -->
-        <div style="width: 30%; height: 250px;" class="contenedor">
-            <h3>Automatizacion portuaria</h3>
-            <p>Integracion de sistemas para agilizar procesos de carga y descarga en puertos.</p>
-        </div>
-
-        <!-- Proyecto 6 -->
-        <div style="width: 30%; height: 250px;" class="contenedor">
-            <h3>Tracking avanzado</h3>
-            <p>Seguimiento detallado de contenedores con sensores en tiempo real.</p>
-        </div>
-
-    </div>
-
-</main>
-
-<footer id = "footer">
-    <div>
-        <h3>CargoView</h3>
-        <p>Optimizando la logistica maritima global a traves de inteligencia predictiva y analisis en tiempo real</p>
-    </div>
-    <div>
-        <h5>NAVEGACION</h5>
-        <ul>
-            <li><a id="pie" href ="">Mapa del sitio</a></li>
-            <li><a id="pie"  href ="">Simulacion de carga</a></li>
-            <li><a id="pie"  href ="">Flota Activa</a></li>
-        </ul>
-    </div>
-    <div>
-        <h5>SOPORTE</h5>
-        <ul>
-            <li><a id="pie" href ="">Centro de ayuda</a></li>
-            <li><a  id="pie" href ="">Contacto</a></li>
-        </ul>
-    </div>
-    <div>
-        <h5>LEGAL</h5>
-        <p>2024 CargoView Solutions. All maritime rights reserved.</p>
-    </div>
-</footer>
-
+    </footer>
 </body>
+
 </html>
